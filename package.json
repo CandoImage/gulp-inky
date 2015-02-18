@@ -1,0 +1,17 @@
+{
+  "name": "gulp-inky",
+  "version": "0.0.1",
+  "main": "./index.js",
+  "dependencies": {
+    "gulp-util": "~2.2.1",
+    "event-stream": "~3",
+    "cheerio": "*",
+    "inky": "*"
+  },
+  "devDependencies": {
+    "gulp": "*",
+    "should": "*",
+    "gulp-util": "*"
+  },
+  "description": "A gulp plugin for using ZURB's Inky parser with Foundation for Emails."
+}
