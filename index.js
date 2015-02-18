@@ -1,7 +1,7 @@
 var es      = require('event-stream');
 var gutil   = require('gulp-util');
 var cheerio = require('cheerio');
-var inky    = require('gulp-zurb-inky');
+var inky    = require('inky');
 var Buffer  = require('buffer').Buffer;
 
 
