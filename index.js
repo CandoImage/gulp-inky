@@ -11,7 +11,7 @@ module.exports = function (opts) {
 
   var body = function (file) {
     if (file.isNull()) { return this.emit('data', file); }
-    if (file.isStream()) { return this.emit('error', new Error("gulp-coffee: Streaming not supported")); }
+    if (file.isStream()) { return this.emit('error', new Error("gulp-inky: Streaming not supported")); }
 
     var str = file.contents.toString('utf8');
     var $ = cheerio.load(str);
