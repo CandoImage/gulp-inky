@@ -6,7 +6,7 @@
     "gulp-util": "~2.2.1",
     "event-stream": "~3",
     "cheerio": "*",
-    "inky": "git://github.com/zurb/inky-parse.git"
+    "inky": "https://github.com/CandoImage/inky-parse.git#ce1c6a0"
   },
   "devDependencies": {
     "gulp": "*",
